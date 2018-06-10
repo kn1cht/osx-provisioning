@@ -1,4 +1,4 @@
-- name: 
+- name: set osx defaults
   osx_defaults: >
     domain={{ item.domain }}
     key={{ item.key }}
