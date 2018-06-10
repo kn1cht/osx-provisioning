@@ -37,3 +37,10 @@
   with_items: homebrew_packages
   when: homebrew_packages
   become: False
+
+- name: install cask packages
+  homebrew_cask:
+    name={{ item.name | default(item) }}
+    state={{ item.state | default('installed') }}
+  with_items:
+    - "{{ homebrew_cask_packages }}"
