@@ -124,7 +124,7 @@ homebrew_packages:
   - ssdeep
   - tmux
   - tree
-  - vim
+  - { name : vim, install_options : with-lua }
   - wakeonlan
   - watch
   - webp
@@ -140,8 +140,11 @@ homebrew_packages:
   - zsh-completions
 
 homebrew_cask_packages:
-  - skype
   - docker
-  - visual-studio-code
-  - slac
   - google-chrome
+  - google-japanese-ime
+  - slack
+  - skype
+  - sourcetree
+  - virtualbox
+  - visual-studio-code
