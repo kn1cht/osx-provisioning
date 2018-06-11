@@ -141,8 +141,8 @@ homebrew_packages:
 
 homebrew_cask_packages:
   - docker
+  - firefox
   - google-chrome
-  - google-japanese-ime
   - slack
   - skype
   - sourcetree
